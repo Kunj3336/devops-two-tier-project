@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevOps Two-Tier Application</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>DevOps Two-Tier Application</h1>
+            <p>Flask-based web application</p>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <section class="hero">
+                <h2>Welcome to the Project</h2>
+
+                <p>
+                    This application is being built from scratch as a
+                    DevOps learning project. It will eventually use Flask,
+                    MySQL, Docker, AWS EC2 and Jenkins CI/CD.
+                </p>
+            </section>
+
+
+            <section class="form-card">
+
+                <h2>User Registration</h2>
+
+                <form id="userForm">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div>
+
+
+                    <button type="submit">
+                        Submit
+                    </button>
+
+                </form>
+
+                <div class="status" id="statusMessage">
+                    Form submitted successfully.
+                    Database integration will be added on Day 2.
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        DevOps Two-Tier Project
+    </footer>
+
+
+    <script
+        src="{{ url_for('static', filename='js/main.js') }}">
+    </script>
+
+</body>
+
+</html>
