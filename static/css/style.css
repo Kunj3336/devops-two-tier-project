@@ -117,3 +117,26 @@ footer {
     color: #71808a;
     font-size: 14px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dce3e7;
+}
+
+table th {
+    background: #eef4f7;
+    color: #17324d;
+}
+
+.empty-message {
+    color: #71808a;
+    margin-top: 10px;
+}
