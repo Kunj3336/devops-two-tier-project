@@ -27,3 +27,18 @@ Developer Workstation (Git Push)
      ├── Frontend / API: Flask App Container (Port 5000:5000)
      └── Backend / Data: MySQL 8.0 Container (Port 3306)
            └── Named Volume: mysql_data (Data Persistence)
+
+---
+
+## Tech Stack & Tools
+Application Tier: Python 3.12, Flask, Jinja2 Templates, mysql-connector-python
+
+Database Tier: MySQL 8.0 with automated entrypoint schema initialization (init.sql)
+
+Containerization: Docker, Docker Compose v2, Named Volumes, Bridge Networking
+
+CI/CD Automation: Jenkins (Declarative Pipeline), GitHub Webhooks
+
+Cloud Infrastructure: AWS EC2 (t3.small, Ubuntu 24.04 LTS), Custom Security Groups
+
+Security & Configuration: Environment variable isolation (.env), non-root database users
