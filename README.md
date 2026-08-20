@@ -92,7 +92,7 @@ devops-two-tier-project/
 **1. Clone the Repository**
 
 ```bash
-git clone [https://github.com/Kunj3336/devops-two-tier-project.git](https://github.com/Kunj3336/devops-two-tier-project.git)
+git clone https://github.com/Kunj3336/devops-two-tier-project.git
 ```
 ```bash
 cd devops-two-tier-project
